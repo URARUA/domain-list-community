@@ -200,6 +200,7 @@ include:notion
 include:ok
 include:okaapps
 include:opencollective
+include:organicmaps
 include:osdn
 include:pastebin
 include:patreon
@@ -266,6 +267,7 @@ include:wikimedia
 
 # Others
 include:avaxhome
+include:dlsite
 include:espressif
 include:familymart
 include:fzdm
