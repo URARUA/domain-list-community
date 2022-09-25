@@ -4,6 +4,7 @@ include:haveibeenpwned
 include:lantern
 include:softether
 include:v2ray
+include:vpngate
 
 ahmia.fi
 akasha.world
@@ -23,12 +24,14 @@ gfw.report
 guardianproject.info
 ipfs.io
 jitsi.org
+lokinet.org
 ntc.party
 onionshare.org
 ooni.org
 openvpn.net
 privacytools.io
 psiphon3.com
+sagernet.org
 shadowsocks.org
 sspanel.net
 stunnel.org
@@ -38,7 +41,6 @@ tribler.org
 tunsafe.com
 twister.net.co
 uproxy.org
-vpngate.org
 vuvuzela.io
 whonix.org
 wikileaks.org

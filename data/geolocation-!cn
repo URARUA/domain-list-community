@@ -44,6 +44,7 @@ include:visa
 
 # CDN companies & Services
 include:akamai
+include:awempire
 include:cdn77
 include:cloudflare
 include:fastly
@@ -84,6 +85,7 @@ include:chinapower
 include:cnet
 include:code
 include:codecademy
+include:codeforces
 include:coursera
 include:edx
 include:egghead
@@ -131,6 +133,10 @@ include:streamable
 
 # Forums & Social network
 include:category-forums
+include:category-social-media-!cn
+
+# IPFS
+include:category-ipfs
 
 # Media & News & Press
 include:category-media
@@ -146,6 +152,8 @@ include:category-porn
 include:falungong
 
 # Services & Softwares
+include:category-browser-!cn
+
 include:accuweather
 include:adblock
 include:adblockplus
@@ -206,6 +214,7 @@ include:pastebin
 include:patreon
 include:picsee
 include:pingpe
+include:playcover
 include:protonmail
 include:quip
 include:reabble
@@ -239,6 +248,9 @@ include:zeplin
 include:zoho
 include:zoom
 
+# Aurora Open Source Software (https://gitlab.com/AuroraOSS)
+auroraoss.com
+
 # Software development
 include:category-dev
 
@@ -264,6 +276,8 @@ include:translatewiki
 include:wikidot
 include:wikihow
 include:wikimedia
+
+touhouwiki.net
 
 # Others
 include:avaxhome
