@@ -43,6 +43,7 @@ include:readthedocs
 include:redis
 include:remirepo
 include:ruby
+include:rust
 include:scala
 include:stackexchange
 include:strikingly
@@ -85,6 +86,7 @@ gnu.org
 # PuTTY and some software official websites.
 greenend.org.uk
 
+hex.pm
 ius.io
 jenkins.io
 js.org
