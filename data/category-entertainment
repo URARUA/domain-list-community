@@ -6,6 +6,8 @@ include:archiveofourown
 include:attwatchtv
 include:bahamut
 include:bandcamp
+include:boomerang
+include:catchplay
 include:category-games
 include:category-novel
 include:dandanzan
@@ -22,16 +24,22 @@ include:hulu
 include:imdb
 include:kingkonglive
 include:kkbox
+include:kktv
+include:litv
 include:manhuagui
 include:mihoyo
 include:mudvod
 include:mytvsuper
 include:netflix
 include:niconico
+include:olevod
+include:pbs
 include:pixiv
+include:plutotv
 include:pocketcasts
 include:primevideo
 include:roku
+include:showtimeanytime
 include:sling
 include:sonypictures
 include:soundcloud
@@ -53,10 +61,10 @@ include:zeetv
 
 777tv.net
 blubrry.com
+buzzsprout.com
 castro.fm
 egta.com
 fireside.fm
-gbnews.uk
 internationalsaimoe.com
 joox.com
 linetv.tw
@@ -71,3 +79,8 @@ syosetu.com
 thetvdb.com
 weverse.io
 yande.re
+
+# Apple Podcast
+amp-api.podcast.apple.com
+bag.itunes.apple.com
+bookeeper.itunes.apple.com

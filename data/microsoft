@@ -132,6 +132,7 @@ managedmeetingrooms.com
 meetfasttrack.com
 meetyourdevices.com
 mepn.com
+microsoft-falcon.io
 microsoft-int.com
 microsoft-ppe.com
 microsoft-sap-events.com
@@ -143,6 +144,7 @@ microsoftads.com
 microsoftadvertising.com
 microsoftadvertisingregionalawards.com
 microsoftaffiliates.com
+microsoftapp.net
 microsoftcloud.com
 microsoftcloudworkshop.com
 microsoftcommunitytraining.com
@@ -280,6 +282,11 @@ windowsupdate.com
 winhec.com
 winhec.net
 yammer.com
+
+# Skype CDN
+edge-skype-com.s-0001.s-msedge.net
+skype-edf.akadns.net
+skypedata.akadns.net
 
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:microsoft@cn"

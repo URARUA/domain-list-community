@@ -7,11 +7,12 @@
 include:jiguang
 include:umeng
 
-# CDN companies & Services
+# CDN Companies & Services
 include:aws-cn
 include:baijiayun
 include:bootcdn
 include:bootcss
+include:cloudflare-cn
 include:dwion
 include:maocloud
 include:pkoplink
@@ -60,6 +61,8 @@ include:acfun
 include:acplay
 include:ali213
 include:bilibili
+include:ciweimao
+include:cowlevel
 include:dedao
 include:dmzj
 include:douyu
@@ -123,6 +126,10 @@ kuaiduizuoye.com
 # IP 定位网站
 include:ipip
 
+# Infinity Pro
+infinitynewtab.com
+inftab.com
+
 ip138.com
 ipplus360.com # 豫ICP备17017462号-1 埃文科技
 
@@ -140,6 +147,9 @@ include:category-media-cn
 
 # Organizations
 include:category-hospital-cn
+
+# Network Security
+include:category-network-security-cn
 
 # Services & Softwares
 include:115
@@ -232,7 +242,7 @@ include:xiaomi
 include:xunlei
 
 # Telecommunication
-include:chinabroadnet 
+include:chinabroadnet
 include:chinamobile
 include:chinatelecom
 include:chinaunicom
@@ -294,6 +304,40 @@ include:category-enterprise-query-platform-cn
 
 upe.net # 优启通官网
 suzuki-china.com # 铃木中国官网
+
+# 应城门户网站
+chugou360.com
+ycrx360.com
+
+# 即刻雾联（北京）
+# Refer: https://github.com/v2fly/domain-list-community/pull/1352#issuecomment-1345476790
+jikeiot.cloud
+
+zyh365.com # 志愿汇
+
+# 青年大学习
+## 北京中青在线网络信息技术有限公司 (京ICP备16062000号)
+cyol.com
+## 北京天润基业科技发展股份有限公司 (京ICP备19052875号-1)
+webterren.com
+
+# 青春北京
+## 共青团北京市委员会信息中心 (京ICP备14030447号-3)
+include:bjyouth
+## 北京尚古创新科技有限公司 (京ICP备14013186号)
+include:sumkoo
+## 知藏（北京）数据技术有限公司 (京ICP备19038827号)
+zzdtec.com
+
+# 明源云
+fdcyun.com
+mingyuanyun.com
+mypaas.com
+mypaas.com.cn
+myypark.com
+
+# 瑞幸咖啡
+include:lkcoffee
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
@@ -451,6 +495,7 @@ aotrip.net
 aoyou.com
 apk3.com
 apk8.com
+aplaybox.com
 appchina.com
 appinn.com
 arpun.com
@@ -777,7 +822,6 @@ imedao.com
 imgo.tv
 imooc.com
 indienova.com
-infinitynewtab.com
 infoq.com
 infoqstatic.com
 ip-cdn.com
@@ -1162,7 +1206,6 @@ tuwan.com
 tuwanjun.com
 txrjy.com # 沪ICP备12002292号
 u.tools
-ubuntukylin.com # 津ICP备15002470号-2 优麒麟
 ucbug.com
 uggame.com
 uoko.com

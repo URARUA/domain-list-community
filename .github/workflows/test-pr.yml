@@ -2,17 +2,22 @@ name: Test PR
 on:
   pull_request:
     branches:
-    - master
+      - master
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
 
     steps:
-      - name: Setup Go
-        uses: actions/setup-go@v3
+      - name: Checkout codebase
+        uses: actions/checkout@v3
         with:
-          go-version: 1.18
+          path: code
+
+      - name: Setup Go
+        uses: actions/setup-go@v4
+        with:
+          go-version-file: code/go.mod
 
       - name: Set variables
         run: |
@@ -20,18 +25,13 @@ jobs:
           echo "TAG_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
         shell: bash
 
-      - name: Checkout codebase
-        uses: actions/checkout@v3
-        with:
-          path: code
-
       - name: Build dlc.dat file
         run: |
           cd code || exit 1
           go run ./ --outputdir=../ --exportlists=category-ads-all,tld-cn,cn,tld-\!cn,geolocation-\!cn,apple,icloud
           cd ../ && rm -rf code
           mv dlc.dat TEST-${{ github.run_number }}-dlc.dat
-          
+
       - name: Upload TEST-${{ github.run_number }}-dlc.dat
         uses: actions/upload-artifact@v3
         with:
