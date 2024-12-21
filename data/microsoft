@@ -66,6 +66,7 @@ femalefounderscomp.com
 m12.vc
 
 # Others
+a-msedge.net
 aka.ms
 ankarazirvesi2018.com
 applicationinsights.io
@@ -88,13 +89,16 @@ cortanaskills.com
 crmdynint-gcc.com
 crmdynint.com
 crossborderexpansion.com
+dcg.microsoft.com @cn
 docs.com
 dynamics.cn @cn
 dynamics.com
+edgesuite.net
 efproject.net
 engkoo.com @cn
 fasttrackreadysupport.com
 fluidpreview.com
+footprintdns.com
 gameuxmasterguide.com
 gears5.com
 gearspop.com
@@ -236,7 +240,9 @@ powershellgallery.com
 projectmurphy.net
 projectsangam.com
 pxt.io
+s-dc-msedge.net
 s-microsoft.com
+s-msedge.net
 s-msft.com
 s-msn.com
 sfbassets.com
@@ -245,6 +251,7 @@ sfx.ms
 sharepoint.cn @cn
 sharepoint.com
 sharepointonline.com
+signalr.net
 skype.com
 skype.net
 skypeassets.com
@@ -292,24 +299,39 @@ skypedata.akadns.net
 # Use in config file like this: "geosite:microsoft@cn"
 dl.delivery.mp.microsoft.com @cn
 download.windowsupdate.com @cn
+full:b.c2r.ts.cdn.office.net @cn
 full:bg.v4.a.dl.ws.microsoft.com @cn
 full:bg4.v4.a.dl.ws.microsoft.com @cn
+full:build.microsoft.com @cn
 full:cdn.marketplaceimages.windowsphone.com @cn
 full:cn.windowssearch.com @cn
 full:ctldl.windowsupdate.com @cn
+full:devblogs.microsoft.com @cn
 full:developer.microsoft.com @cn
 full:docs.microsoft.com @cn
 full:download.microsoft.com @cn
 full:download.visualstudio.microsoft.com @cn
+full:f.c2r.ts.cdn.office.net @cn
 full:fs.microsoft.com @cn
+full:learn.microsoft.com @cn
 full:msgr.dlservice.microsoft.com @cn
 full:msgruser.dlservice.microsoft.com @cn
+full:myvs.download.prss.microsoft.com @cn
+full:oemsoc.download.prss.microsoft.com @cn
 full:officecdn.microsoft.com @cn
 full:qh.dlservice.microsoft.com @cn
+full:res-1.cdn.office.net @cn
+full:res.cdn.office.net @cn
 full:sdx.microsoft.com @cn
+full:shell.cdn.office.net @cn
 full:silverlight.dlservice.microsoft.com @cn
 full:slupdate.dlservice.microsoft.com @cn
+full:software.download.prss.microsoft.com @cn
+full:statics.teams.cdn.office.net @cn
 full:storeedgefd.dsx.mp.microsoft.com @cn
+full:surface.downloads.prss.microsoft.com @cn
+full:vscode.download.prss.microsoft.com @cn
+full:vz.download.prss.microsoft.com @cn
 full:wl.dlservice.microsoft.com @cn
 full:wscont1.apps.microsoft.com @cn
 full:wscont2.apps.microsoft.com @cn

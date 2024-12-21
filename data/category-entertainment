@@ -1,6 +1,7 @@
 # This list contains services related to entertainment & games & music & podcasts & videos outside China mainland.
 
 include:abema
+include:amc
 include:anime
 include:archiveofourown
 include:attwatchtv
@@ -10,6 +11,7 @@ include:boomerang
 include:catchplay
 include:category-games
 include:category-novel
+include:dailymotion
 include:dandanzan
 include:dazn
 include:deviantart
@@ -22,9 +24,11 @@ include:hamivideo
 include:hbo
 include:hulu
 include:imdb
+include:iyf
 include:kingkonglive
 include:kkbox
 include:kktv
+include:lastfm
 include:litv
 include:manhuagui
 include:mihoyo
@@ -55,6 +59,7 @@ include:vimeo
 include:visualarts
 include:viu
 include:volmoe
+include:webnovel
 include:wwe
 include:youtube
 include:zeetv
@@ -70,6 +75,7 @@ joox.com
 linetv.tw
 litv.tv
 megaphone.fm
+mikanani.me
 moov.hk
 odysee.com
 omobi.cc
