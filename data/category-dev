@@ -6,6 +6,7 @@ include:bootstrap
 include:braveux
 include:canonical
 include:category-container
+include:codeberg
 include:dart
 include:debian
 include:docker
@@ -13,6 +14,7 @@ include:embedly
 include:facebook-dev
 include:fastlane
 include:fedora
+include:firebase
 include:flatpak
 include:flutter
 include:fontawesome
@@ -24,16 +26,17 @@ include:golang
 include:hashicorp
 include:haskell
 include:homebrew
-include:huawei-dev
 include:intel-dev
 include:java
 include:jetbrains
+include:jetbrains-ai
 include:jfrog
 include:jsdelivr
 include:kubernetes
 include:microsoft-dev
 include:mongodb
 include:nginx
+include:nixos
 include:openwrt
 include:osdn
 include:perl
@@ -46,10 +49,11 @@ include:redis
 include:remirepo
 include:ruby
 include:rust
+include:redhat
 include:scala
+include:sourcehut
 include:stackexchange
 include:strikingly
-include:tencent-dev
 include:termux
 include:thelinuxfoundation
 include:topcoder
@@ -61,6 +65,7 @@ include:xda
 adventofcode.com
 alpinelinux.org
 apache.org
+artixlinux.org
 atom.io
 badgen.net
 
@@ -72,9 +77,9 @@ centos.org
 chocolatey.org
 clojure.org
 cnpmjs.org
-codeberg.org
 cygwin.com
 cython.org
+deno.com
 deno.land
 dev.to
 elixir-lang.org
@@ -112,7 +117,6 @@ mysql.com
 nixos.org
 nodesource.com
 notepad-plus-plus.org
-openai.com
 openresty.org
 openssl.org
 opensuse.org
@@ -150,3 +154,6 @@ x.org
 xposed.info
 yarnpkg.com
 zsh.org
+
+# Hugging Face official website.
+huggingface.co

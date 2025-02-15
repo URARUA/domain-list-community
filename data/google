@@ -3,9 +3,13 @@ include:android
 include:blogspot
 include:dart
 include:fastlane
+include:firebase
 include:flutter
 include:golang
 include:google-ads
+include:google-deepmind
+include:google-gemini
+include:google-play
 include:google-registry
 include:google-scholar
 include:google-trust-services
@@ -312,16 +316,15 @@ dartsearch.net
 dataliberation.org
 debug.com
 debugproject.com
-deepmind.com
 devsitetest.how
 dialogflow.com
 digitalassetlinks.org
+docs.new
 episodic.com
 feedburner.com
 fflick.com
 financeleadsonline.com
-firebaseapp.com
-firebaseio.com
+fitbit.com
 foofle.com
 froogle.com
 fuchsia.dev
@@ -355,7 +358,7 @@ google.net
 google.org
 google.ventures
 googleacquisitionmigration.com
-googleapis.cn @cn
+googleapis.cn
 googleapis.com
 googleapps.com
 googlearth.com
@@ -379,13 +382,13 @@ googlemail.com
 googlemaps.com
 googlepagecreator.com
 googlephotos.com
-googleplay.com
 googleplus.com
 googlesource.com
 googlestore.com
 googlesverige.com
 googleusercontent.com
 googleventures.com
+googlezip.net
 googlr.com
 goolge.com
 gooogle.com
@@ -411,6 +414,7 @@ howtogetmo.co.uk
 html5rocks.com
 hwgo.com
 iamremarkable.org
+idx.dev
 igoogle.com
 impermium.com
 itasoftware.com
@@ -470,6 +474,8 @@ saynow.com
 schemer.com
 screenwisetrends.com
 screenwisetrendspanel.com
+sheets.new
+slides.new
 snapseed.com
 solveforx.com
 stadia.dev
@@ -513,6 +519,7 @@ webpkgcache.com
 webrtc.org
 weltweitwachsen.de
 whatbrowser.org
+whats.new
 widevine.com
 withgoogle.com
 womenwill.com
@@ -528,23 +535,23 @@ xn--flw351e.com     # 谷歌.com
 xn--ggle-55da.com   # gооgle.com
 xn--gogl-0nd52e.com # gοoglе.com
 xn--gogl-1nd42e.com # goοglе.com
-xn--ngstr-lra8j.com # google play 应用下载时涉及
 xplr.co
 zukunftswerkstatt.de
+
+# Google safe browsing relay
+# https://www.fastly.com/press/press-releases/google-selects-Fastly-Oblivious-HTTP-Relay-for-Privacy-Sandbox/
+full:google-ohttp-relay-safebrowsing.fastly-edge.com
 
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:google@cn"
 full:www.recaptcha.net @cn
 
 # The rules below are from https://github.com/felixonmars/dnsmasq-china-list/blob/master/google.china.conf
-# Revision: ccc695fd89a37f70624c0a254d4a5a8402a70a4c
+# Revision: 1cb04ffd38b040ccbe6f903db9d118e78a2d10d8
 # Use in config file like this: "geosite:google@cn"
 full:265.com @cn
 full:2mdn-cn.net @cn
 full:2mdn.net @cn
-full:accounts.googlers.com @cn
-full:accounts.xn--9trs65b.com @cn
-full:accounts.xn--ggle-55da.com @cn
 full:admob-cn.com @cn
 full:adservice.google.com @cn
 full:ai.ytimg.com @cn
@@ -570,9 +577,8 @@ full:cn.widevine.com @cn
 full:cnappinstall.googleadapis.com @cn
 full:connectivitycheck.gstatic.com @cn
 full:content.googleadapis.com @cn
-full:corp.google.com @cn
-full:corp.googleapis.com @cn
 full:crashlyticsreports-pa.googleapis.com @cn
+full:crl.pki.goog @cn
 full:csi.gstatic.com @cn
 full:dartsearch-cn.net @cn
 full:dg-meta.video.google.com @cn
@@ -599,7 +605,6 @@ full:g0.gstatic.com @cn
 full:g1.gstatic.com @cn
 full:g2.gstatic.com @cn
 full:g3.gstatic.com @cn
-full:gcpnode.com @cn
 full:gonglchuangl.net @cn
 full:gongyichuangyi.net @cn
 full:google-analytics-cn.com @cn
@@ -626,14 +631,14 @@ full:goto.google.com @cn
 full:gstatic-cn.com @cn
 full:gstaticadssl.l.google.com @cn
 full:gtm.oasisfeng.com @cn
-full:gvt1-cn.com @cn
-full:gvt2-cn.com @cn
 full:imasdk.googleapis.com @cn
 full:monitoring.qatp1.net @cn
 full:monitoring.qcpp1.net @cn
 full:monitoring.qpdp1.net @cn
+full:ocsp.pki.goog @cn
 full:pagead-googlehosted.l.google.com @cn
 full:performanceparameters.googleapis.com @cn
+full:pki-goog.l.google.com @cn
 full:play.1ucrs.com @cn
 full:prod-controlbe.floonet.goog @cn
 full:prod-databe.floonet.goog @cn
@@ -652,13 +657,11 @@ full:qualysguard.qatp1.net @cn
 full:qualysguard.qcpp1.net @cn
 full:qualysguard.qpdp1.net @cn
 full:recaptcha.net @cn
+full:recaptcha-cn.net @cn
 full:redirector.bdn.dev @cn
 full:redirector.c.chat.google.com @cn
-full:redirector.c.docs.google.com @cn
-full:redirector.c.drive.google.com @cn
 full:redirector.c.mail.google.com @cn
 full:redirector.c.pack.google.com @cn
-full:redirector.c.play.google.com @cn
 full:redirector.c.youtubeeducation.com @cn
 full:redirector.gcpcdn.gvt1.com @cn
 full:redirector.gvt1.com @cn
@@ -684,8 +687,6 @@ full:test.bugs-qa.chromium.org @cn
 full:test.gbugs-qa.chromium.org @cn
 full:tools.google.com @cn
 full:tools.l.google.com @cn
-full:up.corp.goog @cn
-full:up.gcp.googlers.com @cn
 full:update.crashlytics.com @cn
 full:update.googleapis.com @cn
 full:wear.googleapis.com @cn
@@ -697,3 +698,44 @@ full:www.gstatic.com @cn
 full:www.pxcc.com @cn
 full:xn--9kr7l.com @cn
 full:xn--flw351e.com @cn
+full:applemdm.corp.google.com @cn
+full:dns.corp.google.com @cn
+full:g3doc.corp.google.com @cn
+full:gmskiosk-ssl.corp.google.com @cn
+full:go.corp.google.com @cn
+full:gorom.corp.google.com @cn
+full:goto.corp.google.com @cn
+full:l2-uberproxy.corp.google.com @cn
+full:logger.corp.google.com @cn
+full:logger-dev.corp.google.com @cn
+full:login.corp.google.com @cn
+full:proxyconfig.corp.google.com @cn
+full:rapture-autopush.corp.google.com @cn
+full:rapture.corp.google.com @cn
+full:rapture-prod.corp.google.com @cn
+full:rapture-test.corp.google.com @cn
+full:r.cert.corp.google.com @cn
+full:ssh-relay.corp.google.com @cn
+full:sslredirect.corp.google.com @cn
+full:streaming-uberproxy.corp.google.com @cn
+full:streaming-uberproxy-rotation.corp.google.com @cn
+full:sup.corp.google.com @cn
+full:supportcenter.corp.google.com @cn
+full:sup-ssh-relay2.corp.google.com @cn
+full:sup-ssh-relay.corp.google.com @cn
+full:techstop.corp.google.com @cn
+full:uberproxy4.corp.google.com @cn
+full:uberproxy6.corp.google.com @cn
+full:uberproxy.corp.google.com @cn
+full:uberproxy-debug4.corp.google.com @cn
+full:uberproxy-debug.corp.google.com @cn
+full:uberproxy-pen-redirect.corp.google.com @cn
+full:vext.corp.google.com @cn
+full:sup.l.google.com @cn
+full:uberproxy-with-cn.l.google.com @cn
+full:uberproxy-with-cn4.l.google.com @cn
+full:uberproxy-with-cn6.l.google.com @cn
+full:qiao-cn.com @cn
+
+gvt1-cn.com @cn
+gvt2-cn.com @cn
